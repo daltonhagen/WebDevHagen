@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(171, 170, 170);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {  
+    width: 800px;  
+    border: 15px solid white;  
+    padding: 30px;  
+    margin: auto;
+    text-align: center;
+    Margin-left: -100px
+
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .li {
+    font-style: italic;
+}
+.anchor {
+    text-align: center;
+}
